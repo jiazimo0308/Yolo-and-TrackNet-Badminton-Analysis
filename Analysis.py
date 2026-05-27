@@ -18,7 +18,7 @@ from Pose import *
 from Badminton import *
 
 
-base_dir = "/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统"
+base_dir = "****************************/羽毛球分析系统"
 folders = {
     "videos": f"{base_dir}/videos",
     "runs": f"{base_dir}/runs",
@@ -31,10 +31,10 @@ video_dir = folders["videos"]
 runs_dir = folders["runs"]
 results_dir = folders["results"]
 
-video_path = '/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/videos/Video Project.mp4'
-model_path='/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/yolov8n.pt'
-pose_model_path='/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/yolov8n-pose.pt'
-weights_path= '/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/Track_Model/V3/model_best.pt'
+video_path = '"****************************//羽毛球分析系统/videos/Video Project.mp4'
+model_path='"****************************//羽毛球分析系统/yolov8n.pt'
+pose_model_path='"****************************//羽毛球分析系统/yolov8n-pose.pt'
+weights_path= '"****************************//羽毛球分析系统/Track_Model/V3/model_best.pt'
 
 #找场地边界并划定可判断区域
 find_chang = FindChang(video_path,runs_dir)
