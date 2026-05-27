@@ -149,7 +149,7 @@ class ShuttleDetector:
 if __name__ == '__main__':
     # 配置路径
     WEIGHTS_PATH = "/Track_Model/V3/model_best.pt"
-    VIDEO_PATH = "/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/videos/Video Project.mp4"
+    VIDEO_PATH = "/****************************/羽毛球分析系统/videos/Video Project.mp4"
 
     # 获取视频实际帧率（自动适配不同视频）
     cap = cv2.VideoCapture(VIDEO_PATH)
@@ -163,7 +163,7 @@ if __name__ == '__main__':
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     last_point = None
 
-    print("🏸 速度版TrackNet羽毛球追踪已启动 | 按Q退出")
+    print("速度版TrackNet羽毛球追踪已启动 | 按Q退出")
     for _ in tqdm(range(total_frames), desc="处理进度"):
         ret, frame = cap.read()
         if not ret:
@@ -185,4 +185,4 @@ if __name__ == '__main__':
 
     cap.release()
     cv2.destroyAllWindows()
-    print("✅ 处理完成")
+    print("处理完成")
