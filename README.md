@@ -30,10 +30,11 @@
 ## 💥 预测结果
 
 运行结果展示。
-[badminton_analysis_output 21.20.59.mp4](badminton_analysis_output%2021.20.59.mp4)
 
 <div align="center">
-<img width="474" height="265" alt="first" src="https://github.com/user-attachments/assets/79217515-f977-43d3-b544-2f77b7e095c7" />
+ 
+https://github.com/user-attachments/assets/f1594cd9-818e-4d3e-95a5-a7e67deda595
+
 </div>
 
 ---
