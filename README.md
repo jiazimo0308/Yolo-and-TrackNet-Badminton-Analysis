@@ -1,4 +1,4 @@
-<img width="1423" height="795" alt="first" src="https://github.com/user-attachments/assets/a09baac9-2831-4bee-a1d5-62441cae0096" /># 🏸 Yolo and TrackNet Badminton Analysis
+# 🏸 Yolo and TrackNet Badminton Analysis
 一个用于分析羽毛球运动员和羽毛球轨迹的系统
 
 <div align="center">
