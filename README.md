@@ -1,7 +1,8 @@
+
 # 🏸 Yolo and TrackNet Badminton Analysis
 一个用于分析羽毛球运动员和羽毛球轨迹的系统
 
-
+<img width="1423" height="795" alt="first" src="https://github.com/user-attachments/assets/79217515-f977-43d3-b544-2f77b7e095c7" />
 
 首先非常感谢Muhammad Yasin提供的思路和素材，如果涉及到知识产权问题，我将删除相关内容。
 
