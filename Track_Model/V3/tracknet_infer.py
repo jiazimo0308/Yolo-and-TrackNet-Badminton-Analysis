@@ -9,7 +9,7 @@ import numpy as np
 from model import TrackNetV2 as TrackNet
 
 MODEL_PATH = "/Track_Model/V3/model_best.pt"
-VIDEO_PATH = "/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/videos/Video Project.mp4"
+VIDEO_PATH = "*******************************/羽毛球分析系统/videos/Video Project.mp4"
 
 def get_shuttle_position(bin_img):
     """获取羽毛球中心点（V3 专用）"""
