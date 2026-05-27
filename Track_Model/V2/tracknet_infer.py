@@ -9,8 +9,8 @@ from Track_Model.V2.model import TrackNet
 
 # ====================== 路径 ======================
 MODEL_PATH = "/Track_Model/V2/tracknet.pt"
-VIDEO_PATH = "/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/videos/Video Project.mp4"
-COORD_NPY = "/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/runs/court_coordinates.npy"
+VIDEO_PATH = "****************************/羽毛球分析系统/videos/Video Project.mp4"
+COORD_NPY = "****************************/羽毛球分析系统/runs/court_coordinates.npy"
 # ===================================================
 
 # ===================== 自动取正确左右边界 =====================
