@@ -103,8 +103,8 @@ class YOLOShuttleDetector:
 # 单独测试入口
 if __name__ == '__main__':
     # 配置参数（请确认这些路径绝对正确！）
-    YOLO_WEIGHT = "/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/weights/best.pt"
-    VIDEO_PATH = "/Users/jiazimo/PycharmProjects/Pycharm project learncode/羽毛球分析系统/videos/Video Project.mp4"
+    YOLO_WEIGHT = "****************************/羽毛球分析系统/weights/best.pt"
+    VIDEO_PATH = "****************************/羽毛球分析系统/videos/Video Project.mp4"
 
     # 第一步：检查视频文件是否存在
     if not os.path.exists(VIDEO_PATH):
