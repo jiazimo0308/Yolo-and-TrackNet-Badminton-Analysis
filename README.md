@@ -1,7 +1,8 @@
 # 🏸 Yolo and TrackNet Badminton Analysis
 一个用于分析羽毛球运动员和羽毛球轨迹的系统
 
-![first.png](first.png)
+
+
 首先非常感谢Muhammad Yasin提供的思路和素材，如果涉及到知识产权问题，我将删除相关内容。
 
 这是一个利用计算机视觉实现场地标定、球员识别和羽毛球飞行识别的程序。
