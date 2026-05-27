@@ -2,7 +2,9 @@
 # 🏸 Yolo and TrackNet Badminton Analysis
 一个用于分析羽毛球运动员和羽毛球轨迹的系统
 
+<div align="center">
 <img width="1423" height="795" alt="first" src="https://github.com/user-attachments/assets/79217515-f977-43d3-b544-2f77b7e095c7" />
+</div>
 
 首先非常感谢Muhammad Yasin提供的思路和素材，如果涉及到知识产权问题，我将删除相关内容。
 
@@ -13,6 +15,7 @@
 ---
 
 ## 💡项目区别
+
 在Muhammad Yasin的项目中主要解决了一些运动专业相关的问题，比如谁会控制球场的哪些区域、
 如何实现运动员攻防的切换和使球员的站位更加严谨的问题，本项目与Muhammad Yasin的项目主
 要区别在于：
@@ -37,7 +40,9 @@
 ---
 
 ## 🏗️ 项目结构
+
 本项目的结构如下所示。
+
 ```
 ├─ 羽毛球分析系统（Badminton analysis system）
 │
@@ -90,9 +95,12 @@
 │
 └── yolov8s.pt（v8s权重）
 ```
+
 ---
 ## 💼 工具
+
 项目当前运行电脑为 macOS 14.1.1，M2P处理器运行内存16GB，开发平台为PyCharm 2022.3.2 (Professional Edition)
+
 - Python - 基础环境
 - OpenCV – 视频处理
 - YOLOv8 – 运动员监测
@@ -110,7 +118,9 @@
 首先选取视频第一帧作为后续参数标定的基准，因为运动员在跑动时不回只在比赛要求的界内运动，所以我们扩大场地标定范围，以整块羽毛球地胶作为需要观察的对象，从左上→右上→右下→左下的顺序依次选择四个顶点。
 并存储入court_coordinates.npy文件中。
 
-![标定1.png](%E6%A0%87%E5%AE%9A1.png)
+<div align="center">
+<img width="479" height="267" alt="标定1" src="https://github.com/user-attachments/assets/a4712197-8a0d-4e96-a0ee-c1c7e5e4c196" />
+</div>
 
 其运行结果会在其下进行提示。
 
@@ -137,7 +147,9 @@
 为了使后期两个运动员在追踪划分时更好的区分，因此本项目加入了球场中线的界定，
 通过人工手动选点以此确定整个球场的中心点，并将次中心点存入court_middles.npy文件之中。
 
-![标定2.png](%E6%A0%87%E5%AE%9A2.png)
+<div align="center">
+<img width="479" height="267" alt="标定2" src="https://github.com/user-attachments/assets/c954ce9b-f64b-42b6-b685-d0dfb3fdbfbd" />
+</div>
 
 其中线标定结果如下所示。
 ```
