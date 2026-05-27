@@ -21,7 +21,7 @@ x4 = court[3][0]
 # 自动保证 left < right，永远不报错
 crop_left = min(x3, x4)
 crop_right = max(x3, x4)
-print(f"✅ 裁剪左右边界：left={crop_left}, right={crop_right}")
+print(f"裁剪左右边界：left={crop_left}, right={crop_right}")
 # ==============================================================
 
 def get_shuttle_position(bin_img):
@@ -107,7 +107,7 @@ def main():
 
     cap.release()
     cv2.destroyAllWindows()
-    print("✅ 结束")
+    print("结束")
 
 if __name__ == "__main__":
     main()
