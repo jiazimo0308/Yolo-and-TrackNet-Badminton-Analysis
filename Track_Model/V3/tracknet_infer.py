@@ -44,7 +44,7 @@ def smooth_pos(x, y):
 def main():
     imgsz = (288, 512)
     device = torch.device('cuda' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else 'cpu')
-    print("✅ 使用设备:", device)
+    print("使用设备:", device)
 
     model = TrackNet(in_dim=9, out_dim=3)
     checkpoint = torch.load(MODEL_PATH, map_location=device)
@@ -123,7 +123,7 @@ def main():
 
     cap.release()
     cv2.destroyAllWindows()
-    print("✅ 预测结束")
+    print("预测结束")
 
 if __name__ == "__main__":
     main()
